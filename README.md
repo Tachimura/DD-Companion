@@ -2,7 +2,8 @@
  Dungeon And Dragon Android App
 
 ## Features
-Server side - 2 php pages to give user the game manuals located into the db
+Server side - 2 php pages to give user the game manuals located into the database
+<br>
 Client side:
 - Download and Read the Game Manuals
 - Create and Level-Up your Player Sheets
