@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="abilities">
+        <item name="animal_empathy">Empatia Animale</item>
+        <item name="appraise">Valutare</item>
+        <item name="bluff">Bluffare</item>
+        <item name="concentration">Concentrazione</item>
+        <item name="craft_armor">Creare Armature</item>
+        <item name="craft_trap">Creare Trappole</item>
+        <item name="craft_weapon">Creare Armi</item>
+        <item name="disable_trap">Disattivare Trappole</item>
+        <item name="discipline">Disciplina</item>
+        <item name="heal">Curare</item>
+        <item name="hide">Nascondersi</item>
+        <item name="intimidate">Intimidire</item>
+        <item name="listen">Ascoltare</item>
+        <item name="lore">Conoscenza</item>
+        <item name="move_silently">Muoversi Silenziosamente</item>
+        <item name="open_lock">Aprire Serrature</item>
+        <item name="parry">Parare</item>
+        <item name="perform">Esibire</item>
+        <item name="persuade">Persuadere</item>
+        <item name="pick_pocket">Rubare</item>
+        <item name="ride">Cavalcare</item>
+        <item name="search">Cercare</item>
+        <item name="set_trap">Mettere Trappole</item>
+        <item name="spellcraft">Sapienza Magica</item>
+        <item name="spot">Osservare</item>
+        <item name="taunt">Provocare</item>
+        <item name="tumble">Acrobazia</item>
+        <item name="use_magic_device">Usare Oggetti Magici</item>
+    </array>
+</resources>

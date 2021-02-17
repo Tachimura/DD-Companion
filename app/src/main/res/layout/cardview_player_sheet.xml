@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/standard_6"
+    app:cardElevation="@dimen/standard_6"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_cardview_player_card_inner_elements"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:text="@string/player_sheet_name" />
+
+                <TextView
+                    android:id="@+id/cardview_player_sheet_txv_player_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_cardview_player_card_inner_elements"
+                    android:layout_weight="0.3"
+                    android:ellipsize="marquee"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:text="@string/player_sheet_class" />
+
+                <TextView
+                    android:id="@+id/cardview_player_sheet_txv_player_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_cardview_player_card_inner_elements"
+                    android:layout_weight="0.3"
+                    android:ellipsize="marquee"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:text="@string/player_sheet_race" />
+
+                <TextView
+                    android:id="@+id/cardview_player_sheet_txv_player_race"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_cardview_player_card_inner_elements"
+                    android:layout_weight="0.3"
+                    android:ellipsize="marquee"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_cardview_player_card_inner_elements"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:text="@string/player_sheet_level" />
+
+                <TextView
+                    android:id="@+id/cardview_player_sheet_txv_player_level"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_cardview_player_card_inner_elements"
+                    android:layout_weight="0.7"
+                    android:ellipsize="marquee"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:text="@string/player_sheet_manual" />
+
+                <TextView
+                    android:id="@+id/cardview_player_sheet_txv_manual_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_cardview_player_card_inner_elements"
+                    android:layout_weight="0.7"
+                    android:ellipsize="marquee"
+                    android:padding="@dimen/padding_cardview_player_card_inner_elements"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

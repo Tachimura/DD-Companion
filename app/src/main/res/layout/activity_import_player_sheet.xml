@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_fragments"
+    tools:context=".activities.importplayersheet.ImportPlayerSheetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llt_activity_import_player_sheet__importplayersheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/standard_8"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/standard_6"
+                android:text="@string/import_player_sheet_txv_select_sheet"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/btn_activity_import_player_sheet__selectfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/standard_12"
+                android:layout_marginBottom="@dimen/standard_6"
+                android:text="@string/import_player_sheet_btn_select_file" />
+
+            <TextView
+                android:id="@+id/txv_activity_import_player_sheet__selectedfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:singleLine="true"
+                android:text="@string/import_player_sheet_txv_selected_sheet"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activities.importplayersheet.ImportPlayerSheetActivity" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_activity_import_player_sheet__import"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/standard_12"
+        android:enabled="false"
+        android:text="@string/import_player_sheet_btn_import" />
+</LinearLayout>

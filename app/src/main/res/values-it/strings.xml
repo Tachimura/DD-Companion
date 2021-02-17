@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">D&amp;D Companion</string>
+
+    <string name="menu_title">Menu</string>
+    <string name="menu_item_preferences">Preferenze</string>
+    <string name="menu_item_informations">Informazioni</string>
+
+    <string name="title_activity_create_player_sheet">Crea Scheda Giocatore</string>
+    <string name="title_activity_view_player_sheet">Scheda Giocatore</string>
+    <string name="title_activity_import_player_sheet">Importa Scheda Giocatore</string>
+    <string name="title_activity_settings">Impostazioni</string>
+
+    <string name="title_fragment_home">Pagina\nHome</string>
+    <string name="title_fragment_player_sheets">Schede\nGiocatore</string>
+    <string name="title_fragment_session">Sessione\n\D&amp;D</string>
+
+    <string name="schede_personaggio">Schede Personaggio:</string>
+    <string name="importa_scheda">Importa scheda</string>
+    <string name="crea_scheda">Crea scheda</string>
+
+    <string name="title_fragment_base_information">Base</string>
+    <string name="title_fragment_race_information">Razza</string>
+    <string name="title_fragment_class_information">Classe</string>
+    <string name="title_fragment_stats_information">Stats</string>
+    <string name="title_fragment_ability_information">Abilità</string>
+    <string name="title_fragment_talents_information">Talenti</string>
+
+    <string name="dialog_player_sheet_manager_title">Gestore Scheda Giocatore</string>
+    <string name="dialog_player_sheet_manager_show">Mostra Scheda</string>
+    <string name="dialog_player_sheet_manager_export">Esporta Scheda</string>
+    <string name="dialog_player_sheet_manager_delete">Cancella Scheda</string>
+
+    <string name="player_sheet_name">Nome:</string>
+    <string name="player_sheet_class">Classe:</string>
+    <string name="player_sheet_race">Razza:</string>
+    <string name="player_sheet_level">Livello:</string>
+    <string name="player_sheet_hp">Max HP:</string>
+    <string name="player_sheet_manual">Manuale:</string>
+    <string name="player_sheet_alignment">Allineamento:</string>
+
+    <string name="player_sheet_name_player">Nome\nGiocatore:</string>
+    <string name="player_sheet_select_class">Seleziona la classe:</string>
+    <string name="player_sheet_select_race">Seleziona la razza:</string>
+
+    <string name="viewer_etc">ETC</string>
+    <string name="viewer_base">BASE</string>
+    <string name="viewer_mod">MOD</string>
+    <string name="viewer_tot">TOT</string>
+    <string name="viewer_stat">STAT:</string>
+    <string name="viewer_player_stats_title">Caratteristiche Del Personaggio</string>
+    <string name="viewer_player_other_modifiers_title">Altri Modificatori</string>
+    <string name="view_player_tiro_colpire">Tiro per Colpire:</string>
+    <string name="view_player_classe_armatura">Classe Armatura:</string>
+    <string name="view_player_salvezza_tempra">Tiro salvezza Tempra:</string>
+    <string name="view_player_salvezza_riflessi">Tiro salvezza Riflessi:</string>
+    <string name="view_player_salvezza_volonta">Tiro salvezza Volontà:</string>
+
+    <string name="tab_base">Base</string>
+    <string name="tab_razze">Razze</string>
+    <string name="tab_classi">Classi</string>
+    <string name="tab_abilita">Abilità</string>
+    <string name="tab_talenti">Talenti</string>
+
+    <string name="btn_back">INDIETRO</string>
+    <string name="btn_next">AVANTI</string>
+    <string name="btn_end">FINE</string>
+
+    <string name="latest_manual">Ultimo Manuale:</string>
+    <string name="check_updates">Cerca\nRevisioni</string>
+    <string name="available_manuals">Manuali Disponibili:</string>
+
+    <string name="game_viewer_manual_id">ID Manuale:</string>
+    <string name="game_viewer_released">Rilasciato il:</string>
+    <string name="game_viewer_useable_points">Punti Distribuibili:</string>
+    <string name="game_viewer_base_player_stats">Statistiche Base dei Personaggi:</string>
+    <string name="game_viewer_notes_title">Note di aggiornamento:</string>
+    <string name="game_viewer_races">RAZZE</string>
+    <string name="game_viewer_classes">CLASSI</string>
+    <string name="game_viewer_talents">TALENTI</string>
+    <string name="game_viewer_title">MANUALE DI GIOCO</string>
+    <string name="game_viewer_hp_dice">Dado Vita:</string>
+    <string name="game_viewer_hp_dice_next">Dado Vita Successivo:</string>
+    <string name="game_viewer_primary_skill">Abilità Primaria:</string>
+    <string name="game_viewer_class_abilities">Abilità di Classe:</string>
+    <string name="game_viewer_ability_points">Punti Abilità:</string>
+    <string name="game_viewer_allowed_alignments">Allineamenti permessi:</string>
+    <string name="game_viewer_race_modifiers">Modificatori di razza:</string>
+    <string name="game_viewer_talent_benefits">Benefici:</string>
+
+    <string name="game_manual_title">Manuale di Gioco</string>
+    <string name="importa_scheda_scegli_file">Scegli un file</string>
+    <string name="importa_scheda_import_success">La scheda è stata importata</string>
+    <string name="importa_scheda_import_not_supported">Il file scelto non è supportato</string>
+    <string name="importa_scheda_import_not_available">Manuale di gioco id.%d non disponibile</string>
+
+    <string name="player_sheet_exported_success">Scheda Giocatore Esportata!</string>
+    <string name="player_sheet_exported_error">Errore nell\'esportazione della scheda giocatore!</string>
+    <string name="player_sheet_deleted_success">Scheda Giocatore Cancellata!</string>
+    <string name="player_sheet_deleted_error">Errore nella cancellazione della scheda giocatore!</string>
+
+    <string name="import_player_sheet_txv_select_sheet">Seleziona la scheda giocatore da importare:</string>
+    <string name="import_player_sheet_btn_select_file">Seleziona File</string>
+    <string name="import_player_sheet_txv_selected_sheet">File Selezionato…</string>
+    <string name="import_player_sheet_btn_import">Importa</string>
+
+    <string name="create_player_sheet_error_missing_name">Nome non inserito</string>
+    <string name="create_player_sheet_error_missing_alignment">Allineamento non selezionato</string>
+    <string name="create_player_sheet_error_missing_race">Razza non selezionata</string>
+    <string name="create_player_sheet_error_missing_class">Classe non selezionata</string>
+    <string name="create_player_sheet_error_stats_points_notused">punti statistica distribuibili</string>
+    <string name="create_player_sheet_error_ability_points_notused">punti abilità distribuibili</string>
+    <string name="create_player_sheet_error_talent_points_notused">punti talento distribuibili</string>
+
+    <string name="fragment_home_snackbar_downloaded">Scaricati %d nuovi manuali</string>
+    <string name="fragment_home_snackbar_downloading">Downloading…</string>
+    <string name="fragment_home_snackbar_latestupdate">Nessun nuovo aggiornamento</string>
+    <string name="fragment_home_snackbar_updatefound_action">Aggiorna</string>
+    <string name="fragment_home_snackbar_updatefound">Aggiornamento trovato!</string>
+
+    <string name="settings_language">Linguaggio del\nManuale di Gioco:</string>
+    <string name="settings_daynight">Modalità Notturna:</string>
+
+    <string name="dialog_player_sheet_manager_levelup">Sali di livello</string>
+    <string name="game_session_fragment_master">Master</string>
+    <string name="game_session_fragment_player">Giocatore</string>
+    <string name="game_session_fragment_master_innertitle">Crea una sessione D&amp;D come Master</string>
+    <string name="game_session_fragment_player_innertitle">Partecipa ad una sessione D&amp;D come Giocatore</string>
+    <string name="title_activity_master_session">Sessione D&amp;D</string>
+    <string name="text_set_master_device">Inserisci indirizzo IP del Master:</string>
+    <string name="toast_invalid_ip_address">Indirizzo IP Invalido</string>
+    <string name="text_select_session_gamemanual">Seleziona il manuale da usare:</string>
+
+    <string name="text_ip_address">Indirizzo IP:</string>
+    <string name="text_connected_players">Giocatori Connessi:</string>
+
+    <string name="text_wifi_status">Stato Wifi:</string>
+    <string name="text_ip_address_connected_to">Connesso A:</string>
+    <string name="select_player_sheet_to_use">Seleziona scheda giocatore da usare:</string>
+    <string name="button_connect">Connetti</string>
+
+    <string name="text_send_reply">Invia Risposta</string>
+    <string name="text_requested_by">Richiesto da: %s</string>
+    <string name="text_requested_by_master">Richiesto dal Master</string>
+
+    <string name="text_connection_refused">Il Master ha rifiutato la connessione</string>
+    <string name="title_fragment_player_session_informations">Informazioni</string>
+    <string name="title_fragment_player_session_requests">Richieste</string>
+
+    <!-- titoli delle dialog di risposta -->
+    <string name="requested_throw_tc">Richiesto tiro per colpire</string>
+    <string name="requested_throw_ability">Richiesto tiro per l\'abilità: %s</string>
+    <string name="requested_throw_ca">Richiesto tiro per classe armatura</string>
+    <string name="requested_throw_fortitude">Richiesto tiro sulla Tempra</string>
+    <string name="requested_throw_reflexes">Richiesto tiro sui Riflessi</string>
+    <string name="requested_throw_will">Richiesto tiro sulla Volontà</string>
+    <!-- messaggi dialog risposta dei tiri -->
+
+    <string name="hit_throw_success">Tiro per colpire Riuscito!%s</string>
+    <string name="hit_throw_failure">Tiro per colpire Fallito!%s</string>
+
+    <string name="ca_throw_success">Tiro per Classe Armatura Riuscito!%s</string>
+    <string name="ca_throw_failure">Tiro per Classe Armatura Fallito!%s</string>
+
+    <string name="ability_throw">Tiro per l\'abilità %s %s</string>
+
+    <string name="dice_result">\nRisultato del dado: %d %s</string>
+
+    <string name="critical_success">(successo critico)%s</string>
+    <string name="critical_failure">(fallimento critico)%s</string>
+
+    <string name="throw_result">\nRisultato ottenuto: %d%s</string>
+    <string name="throw_stats">\nValore Base: %d\nValore Bonus: %d\nDifficoltà: %d</string>
+
+    <!-- testo delle cards delle richieste -->
+    <string name="throw_base_value">Valore Base:</string>
+    <string name="throw_bonus_value">Bonus Aggiuntivo:</string>
+    <string name="throws_send">Invia Richiesta</string>
+    <string name="throw_ability_text">Abilità:</string>
+    <string name="throw_difficulty_value">Valore Difficoltà:</string>
+
+    <!-- nomi delle cards delle richieste -->
+    <string name="request_title_hit_throw">Richiesta Tiro x Colpire</string>
+    <string name="request_title_ability_throw">Richiesta Tiro Abilità</string>
+
+
+    <string name="title_master_throw_requests">Richieste per i Tiri</string>
+    <string name="text_master_send_to">Invia A:</string>
+    <string name="throw_saving_tempra">Tiro Salvezza Tempra</string>
+    <string name="throw_saving_riflessi">Tiro Salvezza Riflessi</string>
+    <string name="throw_saving_volonta">Tiro Salvezza Volontà</string>
+    <string name="address_master_name">Master (Tu)</string>
+    <string name="card_title_ability">Tiro abilità</string>
+    <string name="card_title_savings">Tiro salvezza</string>
+    <string name="card_title_ca">Tiro classe armatura</string>
+    <string name="card_title_tc">Tiro per colpire</string>
+    <string name="card_title_levelup">Permetti Level-Up</string>
+    <string name="text_level_up_description">Permetti al giocatore selezionato di salire di livello al termine della sessione di gioco.</string>
+    <string name="dialog_level_up_text"> può ora salire al livello.%d"</string>
+    <string name="toast_level_up_text"> può ora salire di livello</string>
+    <string name="master_disconnected">Master disconnesso</string>
+    <string name="text_not_connected">Connessione con il Master persa</string>
+    <string name="error_lost_connection">Errore invio richiesta. Riprova…</string>
+    <string name="toast_player_disconnected">Giocatore Disconnesso: %s</string>
+    <string name="answer_by">"Risposta da: %s\n%s"</string>
+
+    <string name="succeeded"> Riuscito\n</string>
+    <string name="failed"> Fallito\n</string>
+
+    <string name="text_new">NEW</string>
+    <string name="created_player_sheet">Creata Scheda Giocatore\nNome: %s\nRazza: %s\nClasse: %s</string>
+    <string name="updated_player_sheet">Scheda Giocatore Aggiornata\nNome: %s\nClasse: %s\nLivello: %d</string>
+</resources>

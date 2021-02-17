@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alignments">
+        <item name="lb">Legale\nBuono</item>
+        <item name="ln">Legale\nNeutrale</item>
+        <item name="lm">Legale\nMalvagio</item>
+
+        <item name="nb">Neutrale\nBuono</item>
+        <item name="nn">Neutrale\nPuro</item>
+        <item name="nm">Neutrale\nMalvagio</item>
+
+        <item name="cb">Caotico\nBuono</item>
+        <item name="cn">Caotico\nNeutrale</item>
+        <item name="cm">Caotico\nMalvagio</item>
+    </string-array>
+
+    <string-array name="alignments_inline">
+        <item name="lb">Legale Buono</item>
+        <item name="ln">Legale Neutrale</item>
+        <item name="lm">Legale Malvagio</item>
+
+        <item name="bb">Neutrale Buono</item>
+        <item name="nn">Neutrale Puro</item>
+        <item name="nm">Neutrale Malvagio</item>
+
+        <item name="cb">Caotico Buono</item>
+        <item name="cn">Caotico Neutrale</item>
+        <item name="cm">Caotico Malvagio</item>
+    </string-array>
+</resources>

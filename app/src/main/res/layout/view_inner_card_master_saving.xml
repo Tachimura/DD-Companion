@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rdg_inner_card_master_saving__type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rdb_inner_card_master_saving__tempra"
+        android:paddingStart="@dimen/standard_8"
+        android:paddingEnd="@dimen/standard_8">
+
+        <RadioButton
+            android:id="@+id/rdb_inner_card_master_saving__tempra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="@string/throw_saving_tempra" />
+
+        <include
+            layout="@layout/view_horizontal_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <RadioButton
+            android:id="@+id/rdb_inner_card_master_saving__riflessi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="@string/throw_saving_riflessi" />
+
+        <include
+            layout="@layout/view_horizontal_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <RadioButton
+            android:id="@+id/rdb_inner_card_master_saving__volonta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="@string/throw_saving_volonta" />
+
+        <include
+            layout="@layout/view_horizontal_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_4" />
+    </RadioGroup>
+
+    <include layout="@layout/view_inner_card_master_general" />
+</LinearLayout>

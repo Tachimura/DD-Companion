@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="abilities_modifier">
+        <item name="mod_animal_empathy">5</item>
+        <item name="mod_appraise">1</item>
+        <item name="mod_bluff">5</item>
+        <item name="mod_concentration">4</item>
+        <item name="mod_craft_armor">3</item>
+        <item name="mod_craft_trap">1</item>
+        <item name="mod_craft_weapon">1</item>
+        <item name="mod_disable_trap">3</item>
+        <item name="mod_discipline">5</item>
+        <item name="mod_heal">4</item>
+        <item name="mod_hide">1</item>
+        <item name="mod_intimidate">5</item>
+        <item name="mod_listen">4</item>
+        <item name="mod_lore">3</item>
+        <item name="mod_move_silently">1</item>
+        <item name="mod_open_lock">1</item>
+        <item name="mod_parry">1</item>
+        <item name="mod_perform">5</item>
+        <item name="mod_persuade">5</item>
+        <item name="mod_pick_pocket">1</item>
+        <item name="mod_ride">1</item>
+        <item name="mod_search">3</item>
+        <item name="mod_set_trap">1</item>
+        <item name="mod_spellcraft">4</item>
+        <item name="mod_spot">4</item>
+        <item name="mod_taunt">0</item>
+        <item name="mod_tumble">1</item>
+        <item name="mod_use_magic_device">5</item>
+    </array>
+</resources>

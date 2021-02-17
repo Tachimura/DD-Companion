@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stat_forza">STR</string>
+    <string name="stat_destrezza">DEX</string>
+    <string name="stat_costituzione">CON</string>
+    <string name="stat_intelligenza">INT</string>
+    <string name="stat_saggezza">WIS</string>
+    <string name="stat_carisma">CHA</string>
+
+    <string name="stat_forza_full">Strength</string>
+    <string name="stat_destrezza_full">Dexterity</string>
+    <string name="stat_costituzione_full">Constitution</string>
+    <string name="stat_intelligenza_full">Intelligence</string>
+    <string name="stat_saggezza_full">Wisdom</string>
+    <string name="stat_carisma_full">Charisma</string>
+
+    <string name="stat_forza_full_text">Strength:</string>
+    <string name="stat_destrezza_full_text">Dexterity:</string>
+    <string name="stat_costituzione_full_text">Constitution:</string>
+    <string name="stat_intelligenza_full_text">Intelligence:</string>
+    <string name="stat_saggezza_full_text">Wisdom:</string>
+    <string name="stat_carisma_full_text">Charisma:</string>
+
+    <string name="stat_forza_text">STR:</string>
+    <string name="stat_destrezza_text">DEX:</string>
+    <string name="stat_costituzione_text">CON:</string>
+    <string name="stat_intelligenza_text">INT:</string>
+    <string name="stat_saggezza_text">WIS:</string>
+    <string name="stat_carisma_text">CHA:</string>
+
+    <string name="salv_tempra_full">Fortitude</string>
+    <string name="salv_riflessi_full">Reflex</string>
+    <string name="salv_volonta_full">Will</string>
+
+    <string name="bonus_tc_ai">on hit throws</string>
+    <string name="bonus_ca_at">to armor class</string>
+
+    <string name="tiri_salvezza_tempra">on Fortitude saving throws</string>
+    <string name="tiri_salvezza_riflessi">on Reflex saving throws</string>
+    <string name="tiri_salvezza_volonta">on Will saving throws</string>
+
+    <string name="remaining_points_text">Remaining Points:</string>
+    <string name="player_stats">Player\'s Stats:</string>
+</resources>

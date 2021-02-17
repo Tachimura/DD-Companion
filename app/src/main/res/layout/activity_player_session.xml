@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llt_activity_player_session__devices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_8">
+
+        <LinearLayout
+            android:id="@+id/llt_activity_player_session_devices__connection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/standard_4"
+                android:padding="@dimen/standard_8"
+                android:text="@string/text_set_master_device" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/standard_8">
+
+                <EditText
+                    android:id="@+id/edt_activity_player_session__ip"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/standard_8"
+                    android:layout_weight="1"
+                    android:digits="0123456789."
+                    android:ems="10"
+                    android:hint="@string/hint_address"
+                    android:importantForAutofill="no"
+                    android:inputType="number|numberDecimal" />
+
+                <Button
+                    android:id="@+id/btn_activity_player_session__connect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_connect" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pbar_activity_player_session__connection"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/standard_4"
+                android:indeterminate="true"
+                android:paddingHorizontal="@dimen/standard_8"
+                android:paddingVertical="@dimen/standard_4"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llt_activity_player_session_devices__playersheets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/standard_8"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="@dimen/standard_8"
+                android:text="@string/select_player_sheet_to_use" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_activity_player_session__playersheets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/standard_8" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/activity_player_session_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/activity_player_session_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/standard_4"
+        android:visibility="gone" />
+
+</LinearLayout>

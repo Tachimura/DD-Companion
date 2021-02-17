@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_fragments"
+    tools:context=".activities.ddsession.playerfragments.PlayerSessionInformationsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/standard_4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/text_ip_address_connected_to" />
+
+        <TextView
+            android:id="@+id/txv_fragment_player_session_informations__ip"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:ellipsize="marquee"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_4"
+        android:orientation="horizontal"
+        android:padding="@dimen/standard_4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/player_sheet_manual" />
+
+        <TextView
+            android:id="@+id/txv_fragment_player_session_informations__manual"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:ellipsize="marquee"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_4"
+        android:orientation="horizontal"
+        android:padding="@dimen/standard_4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/text_wifi_status" />
+
+        <TextView
+            android:id="@+id/txv_fragment_player_session_informations__wifistatus"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:ellipsize="marquee"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <include layout="@layout/view_horizontal_divider" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/standard_8"
+        android:text="@string/title_activity_view_player_sheet" />
+
+    <include
+        android:id="@+id/view_fragment_player_session_informations__playerviewer"
+        layout="@layout/view_playersheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

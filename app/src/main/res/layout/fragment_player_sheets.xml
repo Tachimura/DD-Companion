@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_fragments"
+    tools:context=".activities.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/padding_cardview_player_card"
+            android:background="@color/colorAccent"
+            android:paddingVertical="@dimen/padding_cardview_player_card"
+            android:text="@string/schede_personaggio"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_fragment_player_sheets_player_sheets"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/linearLayout_fragment_player_sheets_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_fragment_player_sheets_import_player_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/standard_128"
+        android:text="@string/importa_scheda"
+        android:visibility="gone"
+        app:behavior_autoHide="false"
+        app:icon="@drawable/sharp_archive_black_24dp"
+        app:iconGravity="end" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_fragment_player_sheets_create_player_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/standard_72"
+        android:text="@string/crea_scheda"
+        android:visibility="gone"
+        app:behavior_autoHide="false"
+        app:icon="@drawable/sharp_create_black_24dp"
+        app:iconGravity="end" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_fragment_player_sheets_main_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/standard_8"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/sharp_add_black_24dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

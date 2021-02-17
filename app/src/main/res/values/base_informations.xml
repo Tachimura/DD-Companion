@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="language_base_id1">1</integer>
+    <integer name="language_base_id2">2</integer>
+    <string name="language_base_name1" translatable="false">English</string>
+    <string name="language_base_name2" translatable="false">Italiano</string>
+
+    <!-- STRINGHE PER IL MANUALE 1.0 -->
+    <string name="manual_base_note_l1" translatable="false">Base manual that contain a class and one race to allow basic game sessions.</string>
+    <string name="manual_base_note_l2" translatable="false">Manuale di base contenente una classe ed una razza per permettere sessioni di gioco basilari.</string>
+    <string name="manual_base_race_name_l1" translatable="false">Human</string>
+    <string name="manual_base_race_name_l2" translatable="false">Umano</string>
+    <string name="manual_base_class_name_l1" translatable="false">Barbarian</string>
+    <string name="manual_base_class_name_l2" translatable="false">Barbaro</string>
+    <string name="manual_base_talent_name_l1" translatable="false">Heavily Armored</string>
+    <string name="manual_base_talent_name_l2" translatable="false">Armature Pesanti</string>
+    <string name="manual_base_talent_description_l1" translatable="false">Gain the ability to use heavy armors</string>
+    <string name="manual_base_talent_description_l2" translatable="false">Proficienza nell\'uso di armature pesanti</string>
+    <string name="manual_base_release_data" translatable="false">2020-06-01</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/standard_6"
+    app:cardElevation="@dimen/standard_6"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/standard_8"
+        android:paddingVertical="@dimen/standard_8">
+
+        <TextView
+            android:id="@+id/txv_ability_adapter_cardview__title"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/standard_12"
+            android:layout_weight="1"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ability_adapter_cardview__minus"
+                android:layout_width="@dimen/standard_48"
+                android:layout_height="wrap_content"
+                android:text="@string/minus" />
+
+            <TextView
+                android:id="@+id/txv_ability_adapter_cardview__value"
+                android:layout_width="@dimen/standard_48"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/standard_8"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_ability_adapter_cardview__plus"
+                android:layout_width="@dimen/standard_48"
+                android:layout_height="wrap_content"
+                android:text="@string/plus" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

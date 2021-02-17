@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alignments">
+        <item name="lb">Lawful\nGood</item>
+        <item name="ln">Lawful\nNeutral</item>
+        <item name="lm">Lawful\nEvil</item>
+
+        <item name="nb">Neutral\nGood</item>
+        <item name="nn">True\nNeutral</item>
+        <item name="nm">Neutral\nEvil</item>
+
+        <item name="cb">Chaotic\nGood</item>
+        <item name="cn">Chaotic\nNeutral</item>
+        <item name="cm">Chaotic\nEvil</item>
+    </string-array>
+
+    <string-array name="alignments_inline">
+        <item name="lb">Lawful Good</item>
+        <item name="ln">Lawful Neutral</item>
+        <item name="lm">Lawful Evil</item>
+
+        <item name="bb">Neutral Good</item>
+        <item name="nn">True Neutral</item>
+        <item name="nm">Neutral Evil</item>
+
+        <item name="cb">Chaotic Good</item>
+        <item name="cn">Chaotic Neutral</item>
+        <item name="cm">Chaotic Evil</item>
+    </string-array>
+</resources>

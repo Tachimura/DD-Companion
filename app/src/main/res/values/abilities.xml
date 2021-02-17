@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="abilities">
+        <item name="animal_empathy">Animal Empathy</item>
+        <item name="appraise">Appraise</item>
+        <item name="bluff">Bluff</item>
+        <item name="concentration">Concentration</item>
+        <item name="craft_armor">Craft Armor</item>
+        <item name="craft_trap">Craft Trap</item>
+        <item name="craft_weapon">Craft Weapon</item>
+        <item name="disable_trap">Disable Trap</item>
+        <item name="discipline">Discipline</item>
+        <item name="heal">Heal</item>
+        <item name="hide">Hide</item>
+        <item name="intimidate">Intimidate</item>
+        <item name="listen">Listen</item>
+        <item name="lore">Lore</item>
+        <item name="move_silently">Move Silently</item>
+        <item name="open_lock">Open Lock</item>
+        <item name="parry">Parry</item>
+        <item name="perform">Perform</item>
+        <item name="persuade">Persuade</item>
+        <item name="pick_pocket">Pick Pocket</item>
+        <item name="ride">Ride</item>
+        <item name="search">Search</item>
+        <item name="set_trap">Set Trap</item>
+        <item name="spellcraft">Spellcraft</item>
+        <item name="spot">Spot</item>
+        <item name="taunt">Taunt</item>
+        <item name="tumble">Tumble</item>
+        <item name="use_magic_device">Use Magic Device</item>
+    </array>
+</resources>

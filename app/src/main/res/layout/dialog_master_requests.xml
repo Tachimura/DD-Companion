@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/standard_8"
+        android:text="@string/title_master_throw_requests" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/standard_8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_master_send_to" />
+
+        <TextView
+            android:id="@+id/txv_dialog_master_requests__player"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_12"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--TIRO COLPIRE-->
+            <include
+                android:id="@+id/dialog_master_requests__tc"
+                layout="@layout/cardview_expandable" />
+
+            <!--TIRO ARMATURA-->
+            <include
+                android:id="@+id/dialog_master_requests__ca"
+                layout="@layout/cardview_expandable" />
+
+            <!--TIRO SALVEZZA-->
+            <include
+                android:id="@+id/dialog_master_requests__saving"
+                layout="@layout/cardview_expandable" />
+
+            <!--TIRO ABILITA-->
+            <include
+                android:id="@+id/dialog_master_requests__ability"
+                layout="@layout/cardview_expandable" />
+
+            <!--LEVEL UP-->
+            <include
+                android:id="@+id/dialog_master_requests__levelup"
+                layout="@layout/cardview_expandable" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

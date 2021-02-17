@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minus" translatable="false">-</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="status_online" translatable="false">Online</string>
+    <string name="status_offline" translatable="false">Offline</string>
+    <string name="hint_address" translatable="false">192.168.1.X</string>
+    <string name="preference_file_key" translatable="false">jds.projects.ddcompanion.PREFERENCE_FILE_KEY</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_fragments">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/standard_8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.7"
+            android:labelFor="@id/edt_fragment_base_informations__playername"
+            android:text="@string/player_sheet_name_player"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_fragment_base_informations__playername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:autofillHints="@string/player_sheet_name"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="32" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/standard_8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.7"
+            android:text="@string/player_sheet_manual"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_fragment_base_informations__sheetversion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_64"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_8"
+            android:padding="@dimen/standard_8"
+            android:text="@string/player_sheet_alignment"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <GridView
+            android:id="@+id/gridview_fragment_base_informations__alignments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/standard_12"
+            android:columnWidth="@dimen/standard_96"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/standard_8"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/standard_24" />
+    </LinearLayout>
+
+</LinearLayout>

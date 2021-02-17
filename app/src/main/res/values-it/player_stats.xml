@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stat_forza">FOR</string>
+    <string name="stat_destrezza">DEX</string>
+    <string name="stat_costituzione">COS</string>
+    <string name="stat_intelligenza">INT</string>
+    <string name="stat_saggezza">SAG</string>
+    <string name="stat_carisma">CAR</string>
+
+    <string name="stat_forza_full">Forza</string>
+    <string name="stat_destrezza_full">Destrezza</string>
+    <string name="stat_costituzione_full">Costituzione</string>
+    <string name="stat_intelligenza_full">Intelligenza</string>
+    <string name="stat_saggezza_full">Saggezza</string>
+    <string name="stat_carisma_full">Carisma</string>
+
+    <string name="stat_forza_full_text">Forza:</string>
+    <string name="stat_destrezza_full_text">Destrezza:</string>
+    <string name="stat_costituzione_full_text">Costituzione:</string>
+    <string name="stat_intelligenza_full_text">Intelligenza:</string>
+    <string name="stat_saggezza_full_text">Saggezza:</string>
+    <string name="stat_carisma_full_text">Carisma:</string>
+
+    <string name="stat_forza_text">FOR:</string>
+    <string name="stat_destrezza_text">DEX:</string>
+    <string name="stat_costituzione_text">COS:</string>
+    <string name="stat_intelligenza_text">INT:</string>
+    <string name="stat_saggezza_text">SAG:</string>
+    <string name="stat_carisma_text">CAR:</string>
+
+    <string name="salv_tempra_full">Tempra</string>
+    <string name="salv_riflessi_full">Riflessi</string>
+    <string name="salv_volonta_full">Volonta</string>
+
+    <string name="bonus_tc_ai">ai Tiri per Colpire</string>
+    <string name="bonus_ca_at">alla Classe Armatura</string>
+
+    <string name="tiri_salvezza_tempra">ai tiri salvezza sulla Tempra</string>
+    <string name="tiri_salvezza_riflessi">ai tiri salvezza sui Riflessi</string>
+    <string name="tiri_salvezza_volonta">ai tiri salvezza sulla Volontà</string>
+
+    <string name="remaining_points_text">Punti Rimanenti:</string>
+    <string name="player_stats">Statistiche del Personaggio:</string>
+</resources>
